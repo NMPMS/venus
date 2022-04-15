@@ -1,0 +1,16 @@
+@keyframes fade {
+    0% {opacity: 0;}
+    100% {opacity: 100;}
+}
+
+body {animation: fade ease 1000ms; animation-iteration-count: 1; animation-fill-mode: forwards;}
+
+html, body {
+    margin: 0 auto;
+    padding: 0 auto;
+    background: #181818;
+}
+
+.one {
+    color: white;
+}
