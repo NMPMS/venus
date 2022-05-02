@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
 @keyframes fade {
     0% {opacity: 0;}
     100% {opacity: 100;}
@@ -6,11 +7,31 @@
 body {animation: fade ease 1000ms; animation-iteration-count: 1; animation-fill-mode: forwards;}
 
 html, body {
+    height: 100%;
     margin: 0 auto;
     padding: 0 auto;
     background: #181818;
 }
 
-.one {
+.Interior {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Construct {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.monkeGif {
+    width: 600px;
+    height: 350px;
+}
+
+.Construct-Text {
     color: white;
+    font-size: 40px;
+    padding-top: 30px;
 }
